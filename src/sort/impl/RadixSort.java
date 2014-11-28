@@ -13,9 +13,6 @@ public class RadixSort implements Sorter{
 		
 		boolean finish = false;
 		
-		
-		List<Integer> sort = new ArrayList<Integer>();
-		
 		List<Integer> bits = new ArrayList<Integer>();
 		
 		//

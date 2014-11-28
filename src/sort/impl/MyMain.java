@@ -14,20 +14,20 @@ public class MyMain {
 		arrayList.add(72);
 		arrayList.add(6);
 		arrayList.add(57);
-		arrayList.add(88);
-		arrayList.add(60);
+		arrayList.add(880);
+		arrayList.add(603);
 		arrayList.add(42);
 		arrayList.add(83);
-		arrayList.add(73);
+		arrayList.add(732);
 		arrayList.add(48);
-		arrayList.add(85);
+		arrayList.add(851);
 		
 		System.out.println(arrayList);
 		
-		Sorter radixSort = new RadixSort();
+		Sorter bucketSort = new BucketSort();
 		
 		System.out.println("the result of the quick sort is:");
-		radixSort.sort(arrayList);
+		bucketSort.sort(arrayList);
 		
 		System.out.println(arrayList);
 		
