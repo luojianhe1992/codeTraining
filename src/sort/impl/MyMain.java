@@ -24,10 +24,10 @@ public class MyMain {
 		
 		System.out.println(arrayList);
 		
-		Sorter chooseSort = new ChooseSort();
+		Sorter radixSort = new RadixSort();
 		
 		System.out.println("the result of the quick sort is:");
-		chooseSort.sort(arrayList);
+		radixSort.sort(arrayList);
 		
 		System.out.println(arrayList);
 		
