@@ -3,28 +3,31 @@ package sort.impl;
 import java.util.ArrayList;
 import java.util.List;
 
+import sort.Sorter;
+
 public class MyMain {
 
 
 	public static void main(String[] args){
 		List<Integer> arrayList = new ArrayList<Integer>();
 		
-		arrayList.add(7);
-		arrayList.add(8);
-		arrayList.add(9);
+		arrayList.add(72);
 		arrayList.add(6);
-		arrayList.add(1);
-		arrayList.add(3);
-		arrayList.add(4);
-		arrayList.add(5);
-		arrayList.add(2);
-		arrayList.add(0);
+		arrayList.add(57);
+		arrayList.add(88);
+		arrayList.add(60);
+		arrayList.add(42);
+		arrayList.add(83);
+		arrayList.add(73);
+		arrayList.add(48);
+		arrayList.add(85);
 		
 		System.out.println(arrayList);
 		
-		MergeSort2 mergeSort2 = new MergeSort2();
+		Sorter quickSort = new QuickSort();
 		
-		mergeSort2.sort(arrayList);
+		System.out.println("the result of the quick sort is:");
+		quickSort.sort(arrayList);
 		
 		System.out.println(arrayList);
 		
